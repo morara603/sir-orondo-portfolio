@@ -93,7 +93,7 @@ function Home() {
           <Reveal delay={100}><p className="intro-copy">A look at the kind of engineering, fabrication, CNC, automation and digital work that sits behind the finished result.</p></Reveal>
         </div>
         <div className="resource-grid">
-          {[["resource-01.jpeg","Fabrication","Enclosure & sheet-metal work"],["resource-10.jpeg","CNC","Machining & production"],["resource-08.jpeg","Automation","Robotics & process work"],["resource-07.jpeg","Engineering","Machine design & reliability"],["resource-11.jpeg","Digital","Systems & security"],["resource-09.jpeg","Production","Press-brake & forming"]].map(([image,tag,title],i)=><Reveal key={image} delay={i*60}><article className="resource-card"><img src={`/images/${image}`} alt={title} loading="lazy" /><div><span>{tag}</span><h3>{title}</h3></div></article></Reveal>)}
+          {[["resource-04.jpeg","Fabrication","Enclosure & sheet-metal work"],["resource-13.jpeg","CNC","Machining & production"],["resource-11.jpeg","Automation","Robotics & process work"],["resource-02.jpeg","Engineering","Machine design & reliability"],["resource-10.jpeg","Digital","Systems & security"],["resource-06.jpeg","Production","Press-brake & forming"]].map(([image,tag,title],i)=><Reveal key={image} delay={i*60}><article className="resource-card"><img src={`/images/${image}`} alt={title} loading="lazy" /><div><span>{tag}</span><h3>{title}</h3></div></article></Reveal>)}
         </div>
       </section>
 
