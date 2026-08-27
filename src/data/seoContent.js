@@ -268,7 +268,44 @@ export const PROJECT_PAGES = {
     'Fabrication Kenya'
   ]
 },
-  'consumer-boxes': { title: 'Consumer Electrical Enclosures | Abednego Morara', description: 'CNC-cut and bent electrical enclosure components designed for practical sheet-metal production.', category: 'ELECTRICAL ENCLOSURE', heading: 'Consumer\nBoxes', image: '/images/project-consumer.jpeg', alt: 'CNC-cut and bent electrical enclosure components', intro: 'Enclosure components developed around accurate cutting, bending and practical production requirements.', details: [['Process','CNC cutting'],['Forming','Sheet bending'],['Use','Electrical enclosure'],['Focus','Production-ready parts']], body: 'This work sits at the intersection of design and fabrication: the geometry has to be accurate, but the finished enclosure also needs to assemble cleanly and make sense as a production item.', tags: ['Electrical Enclosures','CNC','Sheet Metal','Fabrication'] },
+  'consumer-boxes': {
+  title: 'Consumer Electrical Enclosure Fabrication | CNC Sheet Metal Kenya | Abednego Morara',
+
+  description:
+    'CNC-cut and bent electrical enclosure components fabricated from sheet metal, with a focus on accurate geometry, clean forming and practical production in Kenya.',
+
+  category: 'ELECTRICAL ENCLOSURE FABRICATION',
+
+  heading: 'Consumer\nBoxes',
+
+  image: '/images/project-consumer.jpeg',
+
+  alt:
+    'CNC-cut and bent sheet-metal electrical enclosure components fabricated by Abednego Morara',
+
+  intro:
+    'Electrical enclosure components developed around accurate CNC cutting, sheet-metal bending and practical production requirements.',
+
+  details: [
+    ['Process', 'CNC cutting'],
+    ['Forming', 'Sheet-metal bending'],
+    ['Use', 'Electrical enclosure'],
+    ['Focus', 'Production-ready parts']
+  ],
+
+  body:
+    'This project sits at the intersection of mechanical design and fabrication. The geometry needs to be accurate for CNC production, while the finished enclosure must also form correctly, assemble cleanly and make sense as a repeatable production item. The work demonstrates how design decisions can be made with the complete manufacturing process in mind.',
+
+  tags: [
+    'Electrical Enclosures',
+    'Electrical Boxes',
+    'CNC Cutting',
+    'Sheet Metal Fabrication',
+    'Sheet Metal Bending',
+    'Metal Enclosures',
+    'Fabrication Kenya'
+  ]
+},
   'tent-fabrication': { title: 'Tent Structural Fabrication | Abednego Morara', description: 'Structural tent fabrication work translating drawings and dimensions into repeatable physical assemblies.', category: 'STRUCTURAL FABRICATION', heading: 'Tent\nFabrication', image: '/images/project-tent.jpeg', alt: 'Structural fabrication work for tent assemblies', intro: 'Structural fabrication work focused on turning dimensions and drawings into repeatable physical assemblies.', details: [['Discipline','Structural fabrication'],['Focus','Repeatable assemblies'],['Workflow','Drawing to build'],['Outcome','Physical structure']], body: 'The work demonstrates practical fabrication discipline: interpreting requirements, preparing components and producing assemblies that can be repeated consistently.', tags: ['Structural Fabrication','Welding','Assembly','Production'] },
   'curved-axis-beam': { title: 'Curved Axis Beam Mechanical Design | Abednego Morara', description: 'A specialised mechanical beam project combining design thinking, geometry and fabrication realities.', category: 'MECHANICAL DESIGN', heading: 'Curved Axis\nBeam', image: '/images/project-beam.jpeg', alt: 'Curved axis mechanical beam design and fabrication project', intro: 'A specialised mechanical component where geometry, structural thinking and fabrication constraints had to work together.', details: [['Discipline','Mechanical design'],['Challenge','Curved geometry'],['Focus','Fabricability'],['Outcome','Physical component']], body: 'The project reflects a practical engineering approach: develop the geometry, understand how it will be made and make design decisions that survive the transition from CAD to workshop.', tags: ['Mechanical Design','CAD','Fabrication','Engineering'] }
 };
