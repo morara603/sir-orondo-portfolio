@@ -76,8 +76,43 @@ export const SERVICE_PAGES = {
   ]
 },
   'machine-reliability': {
-    title: 'Machine Maintenance & Reliability Services | Abednego Morara', description: 'Machine troubleshooting, maintenance planning and reliability support for workshop and production equipment in Kenya and internationally.', eyebrow: 'SERVICE / 03', heading: 'Keep machines\nworking longer.', intro: 'When a machine stops, the real cost is rarely the broken part alone. The goal is to understand the failure, restore operation and reduce repeat downtime.', image: '/images/resource-07.jpeg', alt: 'Engineering machine design and reliability work in a workshop', sections: [['Mechanical troubleshooting','Work through symptoms, mechanisms and likely failure points to identify practical causes rather than treating only the visible problem.'],['Preventive maintenance','Build maintenance routines around operating conditions, service intervals, wear points and the consequences of failure.'],['Machine servicing','Support inspection, adjustment, component replacement and restoration of workshop equipment.'],['Reliability thinking','Turn repeated breakdowns into useful information for improving machine availability and maintenance decisions.']], tags: ['Machine Reliability','Maintenance','Troubleshooting','Workshop Equipment','Downtime']
-  },
+  title: 'Machine Maintenance & Reliability Services in Kenya | Abednego Morara',
+  description:
+    'Machine maintenance, troubleshooting, servicing and reliability support for workshop and production equipment. Reduce downtime and improve machine availability in Kenya and internationally.',
+  eyebrow: 'SERVICE / 03',
+  heading: 'Keep machines\nworking longer.',
+  intro:
+    'Machine maintenance and reliability support for workshops, fabrication operations and production environments. I focus on identifying mechanical problems, restoring equipment and improving maintenance practices so avoidable breakdowns do not keep interrupting production.',
+  image: '/images/resource-07.jpeg',
+  alt:
+    'Machine maintenance, troubleshooting and reliability engineering work in a workshop',
+  sections: [
+    [
+      'Machine troubleshooting',
+      'Investigate symptoms, operating conditions and likely failure points to identify practical mechanical causes rather than treating only the visible problem.'
+    ],
+    [
+      'Preventive maintenance',
+      'Develop practical maintenance routines around operating conditions, service intervals, wear points and the consequences of equipment failure.'
+    ],
+    [
+      'Machine servicing & repair support',
+      'Support inspection, adjustment, component replacement and restoration of workshop and production equipment.'
+    ],
+    [
+      'Reliability & downtime reduction',
+      'Use recurring failures and downtime information to identify improvement opportunities and make machine availability more predictable.'
+    ]
+  ],
+  tags: [
+    'Machine Maintenance',
+    'Machine Reliability',
+    'Machine Troubleshooting',
+    'Preventive Maintenance',
+    'Machine Servicing',
+    'Downtime Reduction'
+  ]
+},
   'digital-production-systems': {
     title: 'Production Management & Digital Systems | Abednego Morara', description: 'Custom production management systems, workflow tools and responsive websites that connect people, jobs, materials, progress and operational information.', eyebrow: 'SERVICE / 04', heading: 'Make the operation\neasier to see.', intro: 'I build digital tools around real workflows: production tracking, job visibility, operational dashboards and websites that make information easier to use.', image: '/images/project-tracker.jpeg', alt: 'Real-time production management system for fabrication operations', sections: [['Production management systems','Design custom tools that connect jobs, people, materials, stages, quantities and progress in one workflow.'],['Operational dashboards','Turn scattered operational information into clear status views that help teams decide what needs attention next.'],['Workflow automation','Reduce repetitive manual work by connecting steps and information around how the operation actually runs.'],['Responsive web development','Build fast, professional websites and digital interfaces for businesses, technical projects and personal brands.']], tags: ['Production Systems','Web Development','Dashboards','Automation','Digital Workflows']
   }
