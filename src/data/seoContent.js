@@ -154,7 +154,44 @@ export const SERVICE_PAGES = {
 };
 
 export const PROJECT_PAGES = {
-  'hydraulic-sheet-metal-bending-machine': { title: 'Hydraulic Sheet-Metal Bending Machine | Abednego Morara', description: 'A locally fabricated hydraulic sheet-metal bending machine designed around a 1.2 m working length and 3 mm sheet capacity.', category: 'MECHANICAL FABRICATION', heading: 'Hydraulic Sheet-Metal\nBending Machine', image: '/images/hydraulic-bending-machine-3.jpeg', alt: 'Hydraulic sheet-metal bending machine fabricated by Abednego Morara', intro: 'A practical machine built by combining a locally fabricated structure with sourced hydraulic and tooling components.', details: [['1.2 m','Maximum bend length'],['3 mm','Sheet thickness'],['2','Hydraulic jacks'],['1 set','Punch & die']], body: 'The project brought mechanical design, structural fabrication, hydraulics and workshop problem solving together into one usable machine. The design was developed with fabrication and operation in mind rather than as a purely theoretical model.', tags: ['Mechanical Design','Hydraulics','Fabrication','Sheet Metal'] },
+'hydraulic-sheet-metal-bending-machine': {
+  title: 'Hydraulic Sheet-Metal Bending Machine Design & Fabrication | Kenya | Abednego Morara',
+
+  description:
+    'Hydraulic sheet-metal bending machine designed and fabricated by Abednego Morara in Kenya, combining mechanical design, structural fabrication, hydraulics and practical workshop engineering.',
+
+  category: 'MECHANICAL DESIGN & FABRICATION',
+
+  heading: 'Hydraulic Sheet-Metal\nBending Machine',
+
+  image: '/images/hydraulic-bending-machine-3.jpeg',
+
+  alt:
+    'Hydraulic sheet-metal bending machine designed and fabricated by Abednego Morara in Kenya',
+
+  intro:
+    'A locally fabricated hydraulic sheet-metal bending machine developed by combining mechanical design, structural fabrication, hydraulics and workshop problem solving into one practical production machine.',
+
+  details: [
+    ['1.2 m', 'Maximum bend length'],
+    ['3 mm', 'Sheet thickness'],
+    ['2', 'Hydraulic jacks'],
+    ['1 set', 'Punch & die']
+  ],
+
+  body:
+    'The project brought mechanical design, structural fabrication, hydraulics and workshop problem solving together into one usable machine. The machine was developed around a 1.2 m working length and 3 mm sheet capacity, with the structure and tooling considered from the beginning of the design process. The result is an example of practical engineering where a machine moves from concept and design into a physically fabricated and usable solution.',
+
+  tags: [
+    'Mechanical Design',
+    'Machine Design',
+    'Hydraulic Machine',
+    'Sheet Metal',
+    'Fabrication',
+    'Hydraulics',
+    'Engineering Kenya'
+  ]
+},
   'real-time-fabrication-tracker': { title: 'Real-Time Fabrication Tracker | Abednego Morara', description: 'A production management system connecting jobs, people, materials, stages and progress for fabrication operations.', category: 'SOFTWARE / PRODUCTION', heading: 'Real-Time Fabrication\nTracker', image: '/images/project-tracker.jpeg', alt: 'Real-time fabrication production management system dashboard', intro: 'A digital production workflow designed to make workshop progress visible from job creation through release.', details: [['Jobs','Tracked end to end'],['Materials','Connected to work'],['Progress','Visible by stage'],['Release','Close-out workflow']], body: 'The system turns a workshop process into a connected flow: every job has an owner, a stage, a quantity and a visible next move. It combines engineering process thinking with software to make production information easier to act on.', tags: ['Production Management','Web Development','Workflow','Operations'] },
   'e-water-meter-boxes': { title: 'E-Water Meter Boxes | Abednego Morara', description: 'Sheet-metal meter box components developed around repeatable CNC production and practical assembly.', category: 'SHEET METAL', heading: 'E-Water\nMeter Boxes', image: '/images/project-meter.jpeg', alt: 'Sheet-metal E-Water meter box components', intro: 'A production-oriented sheet-metal project focused on repeatability, clean fabrication and practical assembly.', details: [['Process','CNC production'],['Material','Sheet metal'],['Focus','Repeatability'],['Output','Box components']], body: 'The project demonstrates how design decisions affect repeatable production. Components were developed around cutting, forming and assembly requirements rather than treating fabrication as an afterthought.', tags: ['Sheet Metal','CNC','Fabrication','Production'] },
   'consumer-boxes': { title: 'Consumer Electrical Enclosures | Abednego Morara', description: 'CNC-cut and bent electrical enclosure components designed for practical sheet-metal production.', category: 'ELECTRICAL ENCLOSURE', heading: 'Consumer\nBoxes', image: '/images/project-consumer.jpeg', alt: 'CNC-cut and bent electrical enclosure components', intro: 'Enclosure components developed around accurate cutting, bending and practical production requirements.', details: [['Process','CNC cutting'],['Forming','Sheet bending'],['Use','Electrical enclosure'],['Focus','Production-ready parts']], body: 'This work sits at the intersection of design and fabrication: the geometry has to be accurate, but the finished enclosure also needs to assemble cleanly and make sense as a production item.', tags: ['Electrical Enclosures','CNC','Sheet Metal','Fabrication'] },
