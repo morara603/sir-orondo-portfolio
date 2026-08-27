@@ -306,6 +306,43 @@ export const PROJECT_PAGES = {
     'Fabrication Kenya'
   ]
 },
-  'tent-fabrication': { title: 'Tent Structural Fabrication | Abednego Morara', description: 'Structural tent fabrication work translating drawings and dimensions into repeatable physical assemblies.', category: 'STRUCTURAL FABRICATION', heading: 'Tent\nFabrication', image: '/images/project-tent.jpeg', alt: 'Structural fabrication work for tent assemblies', intro: 'Structural fabrication work focused on turning dimensions and drawings into repeatable physical assemblies.', details: [['Discipline','Structural fabrication'],['Focus','Repeatable assemblies'],['Workflow','Drawing to build'],['Outcome','Physical structure']], body: 'The work demonstrates practical fabrication discipline: interpreting requirements, preparing components and producing assemblies that can be repeated consistently.', tags: ['Structural Fabrication','Welding','Assembly','Production'] },
+  'tent-fabrication': {
+  title: 'Tent Structural Fabrication & Welding | Kenya | Abednego Morara',
+
+  description:
+    'Structural tent fabrication and welding work by Abednego Morara, turning drawings and dimensions into repeatable physical assemblies for practical projects in Kenya.',
+
+  category: 'STRUCTURAL FABRICATION',
+
+  heading: 'Tent\nFabrication',
+
+  image: '/images/project-tent.jpeg',
+
+  alt:
+    'Structural tent frame fabrication and welding work by Abednego Morara',
+
+  intro:
+    'Structural fabrication work focused on turning dimensions and drawings into accurately prepared, welded and repeatable physical assemblies.',
+
+  details: [
+    ['Discipline', 'Structural fabrication'],
+    ['Process', 'Welding & assembly'],
+    ['Focus', 'Repeatable structures'],
+    ['Workflow', 'Drawing to build']
+  ],
+
+  body:
+    'The project demonstrates a practical approach to structural fabrication: interpreting drawings and dimensions, preparing components and producing welded assemblies that can be repeated consistently. The work connects design requirements with the realities of cutting, preparation, welding and physical assembly.',
+
+  tags: [
+    'Tent Fabrication',
+    'Structural Fabrication',
+    'Welding',
+    'Steel Fabrication',
+    'Metal Fabrication',
+    'Assembly',
+    'Fabrication Kenya'
+  ]
+},
   'curved-axis-beam': { title: 'Curved Axis Beam Mechanical Design | Abednego Morara', description: 'A specialised mechanical beam project combining design thinking, geometry and fabrication realities.', category: 'MECHANICAL DESIGN', heading: 'Curved Axis\nBeam', image: '/images/project-beam.jpeg', alt: 'Curved axis mechanical beam design and fabrication project', intro: 'A specialised mechanical component where geometry, structural thinking and fabrication constraints had to work together.', details: [['Discipline','Mechanical design'],['Challenge','Curved geometry'],['Focus','Fabricability'],['Outcome','Physical component']], body: 'The project reflects a practical engineering approach: develop the geometry, understand how it will be made and make design decisions that survive the transition from CAD to workshop.', tags: ['Mechanical Design','CAD','Fabrication','Engineering'] }
 };
