@@ -71,7 +71,7 @@ function Home() {
 
         <Reveal className="hero-portrait" delay={180}>
           <div className="portrait-frame">
-            <img src="/images/abednego.jpeg" aalt="Abednego Morara, mechanical engineer and fabricator in Kenya" />
+            <img src="/images/abednego.jpeg" alt="Abednego Morara, mechanical engineer and fabricator in Kenya" />
           </div>
         </Reveal>
 
