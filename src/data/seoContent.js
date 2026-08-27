@@ -3,8 +3,43 @@ export const SERVICE_PAGES = {
     title: 'Mechanical Design & CAD Services | Abednego Morara', description: 'Mechanical design, CAD modelling and fabrication-ready drawings for machines, components and practical engineering projects in Kenya and internationally.', eyebrow: 'SERVICE / 01', heading: 'Mechanical design that\ncan actually be built.', intro: 'From an early concept to a fabrication-ready drawing set, I focus on designs that make sense in the workshop as well as on the screen.', image: '/images/hydraulic-bending-machine-2.jpeg', alt: 'Mechanical design and fabrication of a hydraulic sheet-metal bending machine', sections: [['Concept & mechanical design','Develop practical concepts around the load, function, materials, manufacturing method and real-world constraints of the project.'],['CAD & 3D modelling','Create clear 3D models and assemblies that help communicate the design before material and machine time are committed.'],['Fabrication-ready drawings','Prepare dimensions, details and manufacturing information with fabrication, assembly and maintenance in mind.'],['Design for manufacturing','Balance performance with available processes such as cutting, bending, welding, machining and locally available components.']], tags: ['Mechanical Engineering','CAD','3D Modelling','Machine Design','Fabrication Drawings']
   },
   'cnc-fabrication': {
-    title: 'CNC & Fabrication Services | Abednego Morara', description: 'CNC production support, sheet-metal fabrication, laser cutting, nesting, welding and workshop problem solving for practical engineering projects.', eyebrow: 'SERVICE / 02', heading: 'From digital geometry\nto physical parts.', intro: 'Good fabrication is not only about cutting metal. It is about making the drawing, process, tooling and assembly work together.', image: '/images/resource-10.jpeg', alt: 'CNC machining and production work in an engineering workshop', sections: [['CNC production support','Support the transition from drawings and models into repeatable workshop production, including practical process decisions.'],['Sheet-metal fabrication','Work with cutting, bending, welding and assembly for enclosures, machine frames and other fabricated components.'],['Laser cutting & nesting','Prepare production-oriented layouts that reduce waste and keep parts consistent across repeat batches.'],['Workshop troubleshooting','Identify process problems and improve the route from material preparation through fabrication and final assembly.']], tags: ['CNC','Laser Cutting','Sheet Metal','Welding','Production Support']
-  },
+  title: 'CNC Fabrication & Sheet Metal Services in Kenya | Abednego Morara',
+  description:
+    'CNC fabrication, laser cutting, sheet-metal production, bending, welding and custom metal components for engineering projects, workshops and businesses in Kenya and beyond.',
+  eyebrow: 'SERVICE / 02',
+  heading: 'CNC fabrication that\nturns drawings into parts.',
+  intro:
+    'Engineering-led CNC fabrication and sheet-metal production for businesses, workshops and practical projects. I connect drawings, material preparation, cutting, forming, welding and assembly so parts are designed to work in the real world.',
+  image: '/images/resource-10.jpeg',
+  alt:
+    'CNC fabrication and sheet metal production work in an engineering workshop in Kenya',
+  sections: [
+    [
+      'CNC fabrication & production support',
+      'Translate engineering drawings and digital models into practical, repeatable production work, with attention to dimensions, materials, tolerances and the realities of the workshop.'
+    ],
+    [
+      'Sheet-metal fabrication',
+      'Produce practical sheet-metal components and assemblies using cutting, bending, welding and finishing for enclosures, machine frames, brackets and other fabricated parts.'
+    ],
+    [
+      'Laser cutting & nesting',
+      'Prepare production-oriented layouts for CNC laser cutting and nesting to improve material utilisation, consistency and repeatability across batches.'
+    ],
+    [
+      'Custom components & assemblies',
+      'Support one-off components, prototypes and repeat production items where engineering design and fabrication need to work together from the start.'
+    ]
+  ],
+  tags: [
+    'CNC Fabrication',
+    'CNC Laser Cutting',
+    'Sheet Metal',
+    'Welding',
+    'Custom Components',
+    'Production Support'
+  ]
+},
   'machine-reliability': {
     title: 'Machine Maintenance & Reliability Services | Abednego Morara', description: 'Machine troubleshooting, maintenance planning and reliability support for workshop and production equipment in Kenya and internationally.', eyebrow: 'SERVICE / 03', heading: 'Keep machines\nworking longer.', intro: 'When a machine stops, the real cost is rarely the broken part alone. The goal is to understand the failure, restore operation and reduce repeat downtime.', image: '/images/resource-07.jpeg', alt: 'Engineering machine design and reliability work in a workshop', sections: [['Mechanical troubleshooting','Work through symptoms, mechanisms and likely failure points to identify practical causes rather than treating only the visible problem.'],['Preventive maintenance','Build maintenance routines around operating conditions, service intervals, wear points and the consequences of failure.'],['Machine servicing','Support inspection, adjustment, component replacement and restoration of workshop equipment.'],['Reliability thinking','Turn repeated breakdowns into useful information for improving machine availability and maintenance decisions.']], tags: ['Machine Reliability','Maintenance','Troubleshooting','Workshop Equipment','Downtime']
   },
