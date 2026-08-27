@@ -312,11 +312,35 @@ nationality: {
         "Web Development",
       ],
     };
+    const localBusiness = {
+  "@type": "LocalBusiness",
+  "@id": `${SITE_URL}/#local-business`,
+  name: "Abednego Morara Engineering & Digital Services",
+  url: SITE_URL,
+  description:
+    "Mechanical engineering, fabrication, machine reliability and digital production systems services by Abednego Morara in Kenya and internationally.",
+  image: `${SITE_URL}/images/abednego.jpeg`,
+  priceRange: "$$",
+  areaServed: [
+    {
+      "@type": "Country",
+      name: "Kenya",
+    },
+    {
+      "@type": "Place",
+      name: "International",
+    },
+  ],
+  founder: {
+    "@id": PERSON_ID,
+  },
+};
 
     const graph = [
       person,
       website,
       professionalService,
+      localBusiness,
     ];
 
     /*
