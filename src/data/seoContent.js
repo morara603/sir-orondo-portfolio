@@ -114,8 +114,43 @@ export const SERVICE_PAGES = {
   ]
 },
   'digital-production-systems': {
-    title: 'Production Management & Digital Systems | Abednego Morara', description: 'Custom production management systems, workflow tools and responsive websites that connect people, jobs, materials, progress and operational information.', eyebrow: 'SERVICE / 04', heading: 'Make the operation\neasier to see.', intro: 'I build digital tools around real workflows: production tracking, job visibility, operational dashboards and websites that make information easier to use.', image: '/images/project-tracker.jpeg', alt: 'Real-time production management system for fabrication operations', sections: [['Production management systems','Design custom tools that connect jobs, people, materials, stages, quantities and progress in one workflow.'],['Operational dashboards','Turn scattered operational information into clear status views that help teams decide what needs attention next.'],['Workflow automation','Reduce repetitive manual work by connecting steps and information around how the operation actually runs.'],['Responsive web development','Build fast, professional websites and digital interfaces for businesses, technical projects and personal brands.']], tags: ['Production Systems','Web Development','Dashboards','Automation','Digital Workflows']
-  }
+  title: 'Production Management Systems & Digital Solutions | Abednego Morara',
+  description:
+    'Custom production management systems, production tracking dashboards and digital workflow tools for manufacturing, fabrication and businesses in Kenya and internationally.',
+  eyebrow: 'SERVICE / 04',
+  heading: 'Make the operation\neasier to see.',
+  intro:
+    'I build digital systems around real production workflows—connecting jobs, people, materials, stages and progress so teams can see what is happening and decide what needs attention next.',
+  image: '/images/project-tracker.jpeg',
+  alt:
+    'Custom production management and real-time fabrication tracking system',
+  sections: [
+    [
+      'Production management systems',
+      'Design custom systems that connect jobs, people, materials, production stages, quantities and progress in one practical workflow.'
+    ],
+    [
+      'Production tracking dashboards',
+      'Turn scattered workshop and production information into clear dashboards that show job status, progress, workload and operational priorities.'
+    ],
+    [
+      'Workflow automation',
+      'Reduce repetitive manual processes by connecting information and actions around how your business actually operates.'
+    ],
+    [
+      'Custom business software & web development',
+      'Build responsive digital platforms and websites for businesses, technical projects and personal brands, with functionality shaped around real requirements rather than generic templates.'
+    ]
+  ],
+  tags: [
+    'Production Management Systems',
+    'Production Tracking',
+    'Manufacturing Software',
+    'Dashboards',
+    'Workflow Automation',
+    'Web Development'
+  ]
+},
 };
 
 export const PROJECT_PAGES = {
