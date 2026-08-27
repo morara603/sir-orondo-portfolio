@@ -344,5 +344,42 @@ export const PROJECT_PAGES = {
     'Fabrication Kenya'
   ]
 },
-  'curved-axis-beam': { title: 'Curved Axis Beam Mechanical Design | Abednego Morara', description: 'A specialised mechanical beam project combining design thinking, geometry and fabrication realities.', category: 'MECHANICAL DESIGN', heading: 'Curved Axis\nBeam', image: '/images/project-beam.jpeg', alt: 'Curved axis mechanical beam design and fabrication project', intro: 'A specialised mechanical component where geometry, structural thinking and fabrication constraints had to work together.', details: [['Discipline','Mechanical design'],['Challenge','Curved geometry'],['Focus','Fabricability'],['Outcome','Physical component']], body: 'The project reflects a practical engineering approach: develop the geometry, understand how it will be made and make design decisions that survive the transition from CAD to workshop.', tags: ['Mechanical Design','CAD','Fabrication','Engineering'] }
+  'curved-axis-beam': {
+  title: 'Curved Axis Beam Mechanical Design & Fabrication | Kenya | Abednego Morara',
+
+  description:
+    'Curved axis beam designed around specialised geometry, mechanical design and fabrication requirements, demonstrating practical engineering from concept through physical production.',
+
+  category: 'MECHANICAL DESIGN & FABRICATION',
+
+  heading: 'Curved Axis\nBeam',
+
+  image: '/images/project-beam.jpeg',
+
+  alt:
+    'Curved axis beam mechanical design and fabrication project by Abednego Morara',
+
+  intro:
+    'A specialised mechanical component where curved geometry, structural thinking and fabrication constraints had to work together.',
+
+  details: [
+    ['Discipline', 'Mechanical design'],
+    ['Challenge', 'Curved geometry'],
+    ['Focus', 'Fabricability'],
+    ['Outcome', 'Physical component']
+  ],
+
+  body:
+    'The project reflects a practical engineering approach to specialised geometry. The component was developed by considering the required shape, structural behaviour and how the geometry could be translated into a manufacturable physical part. It demonstrates the connection between CAD-based mechanical design and real-world fabrication constraints.',
+
+  tags: [
+    'Curved Axis Beam',
+    'Mechanical Design',
+    'Machine Design',
+    'CAD',
+    'Engineering Design',
+    'Fabrication',
+    'Mechanical Engineering Kenya'
+  ]
+},
 };
