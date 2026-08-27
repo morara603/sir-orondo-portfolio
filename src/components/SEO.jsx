@@ -320,7 +320,7 @@ nationality: {
   description:
     "Mechanical engineering, fabrication, machine reliability and digital production systems services by Abednego Morara in Kenya and internationally.",
   image: `${SITE_URL}/images/abednego.jpeg`,
-  priceRange: "$$",
+  
   areaServed: [
     {
       "@type": "Country",
