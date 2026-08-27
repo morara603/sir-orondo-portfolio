@@ -192,7 +192,44 @@ export const PROJECT_PAGES = {
     'Engineering Kenya'
   ]
 },
-  'real-time-fabrication-tracker': { title: 'Real-Time Fabrication Tracker | Abednego Morara', description: 'A production management system connecting jobs, people, materials, stages and progress for fabrication operations.', category: 'SOFTWARE / PRODUCTION', heading: 'Real-Time Fabrication\nTracker', image: '/images/project-tracker.jpeg', alt: 'Real-time fabrication production management system dashboard', intro: 'A digital production workflow designed to make workshop progress visible from job creation through release.', details: [['Jobs','Tracked end to end'],['Materials','Connected to work'],['Progress','Visible by stage'],['Release','Close-out workflow']], body: 'The system turns a workshop process into a connected flow: every job has an owner, a stage, a quantity and a visible next move. It combines engineering process thinking with software to make production information easier to act on.', tags: ['Production Management','Web Development','Workflow','Operations'] },
+  'real-time-fabrication-tracker': {
+  title: 'Real-Time Production & Fabrication Tracking System | Kenya | Abednego Morara',
+
+  description:
+    'Custom real-time production and fabrication tracking system developed by Abednego Morara to connect jobs, materials, production stages, workers and progress in one digital workflow.',
+
+  category: 'DIGITAL PRODUCTION SYSTEMS',
+
+  heading: 'Real-Time Fabrication\nTracker',
+
+  image: '/images/project-tracker.jpeg',
+
+  alt:
+    'Real-time production and fabrication tracking system dashboard developed by Abednego Morara',
+
+  intro:
+    'A custom digital production management system designed to make fabrication workflow, job progress, materials and production responsibilities visible from one connected platform.',
+
+  details: [
+    ['Jobs', 'Tracked end to end'],
+    ['Materials', 'Connected to work'],
+    ['Progress', 'Visible by stage'],
+    ['Release', 'Close-out workflow']
+  ],
+
+  body:
+    'The system turns a fabrication operation into a connected digital workflow. Jobs can be followed from creation through production and release, while people, materials, stages and quantities remain connected to the work. The project combines production management thinking with web development to make operational information easier to see, manage and act on.',
+
+  tags: [
+    'Production Management',
+    'Production Tracking',
+    'Fabrication Management',
+    'Manufacturing Software',
+    'Workflow Automation',
+    'Web Development',
+    'Digital Production Systems'
+  ]
+},
   'e-water-meter-boxes': { title: 'E-Water Meter Boxes | Abednego Morara', description: 'Sheet-metal meter box components developed around repeatable CNC production and practical assembly.', category: 'SHEET METAL', heading: 'E-Water\nMeter Boxes', image: '/images/project-meter.jpeg', alt: 'Sheet-metal E-Water meter box components', intro: 'A production-oriented sheet-metal project focused on repeatability, clean fabrication and practical assembly.', details: [['Process','CNC production'],['Material','Sheet metal'],['Focus','Repeatability'],['Output','Box components']], body: 'The project demonstrates how design decisions affect repeatable production. Components were developed around cutting, forming and assembly requirements rather than treating fabrication as an afterthought.', tags: ['Sheet Metal','CNC','Fabrication','Production'] },
   'consumer-boxes': { title: 'Consumer Electrical Enclosures | Abednego Morara', description: 'CNC-cut and bent electrical enclosure components designed for practical sheet-metal production.', category: 'ELECTRICAL ENCLOSURE', heading: 'Consumer\nBoxes', image: '/images/project-consumer.jpeg', alt: 'CNC-cut and bent electrical enclosure components', intro: 'Enclosure components developed around accurate cutting, bending and practical production requirements.', details: [['Process','CNC cutting'],['Forming','Sheet bending'],['Use','Electrical enclosure'],['Focus','Production-ready parts']], body: 'This work sits at the intersection of design and fabrication: the geometry has to be accurate, but the finished enclosure also needs to assemble cleanly and make sense as a production item.', tags: ['Electrical Enclosures','CNC','Sheet Metal','Fabrication'] },
   'tent-fabrication': { title: 'Tent Structural Fabrication | Abednego Morara', description: 'Structural tent fabrication work translating drawings and dimensions into repeatable physical assemblies.', category: 'STRUCTURAL FABRICATION', heading: 'Tent\nFabrication', image: '/images/project-tent.jpeg', alt: 'Structural fabrication work for tent assemblies', intro: 'Structural fabrication work focused on turning dimensions and drawings into repeatable physical assemblies.', details: [['Discipline','Structural fabrication'],['Focus','Repeatable assemblies'],['Workflow','Drawing to build'],['Outcome','Physical structure']], body: 'The work demonstrates practical fabrication discipline: interpreting requirements, preparing components and producing assemblies that can be repeated consistently.', tags: ['Structural Fabrication','Welding','Assembly','Production'] },
