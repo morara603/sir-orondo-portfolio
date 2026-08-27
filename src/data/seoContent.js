@@ -1,40 +1,50 @@
 export const SERVICE_PAGES = {
   'mechanical-design': {
   title: 'Mechanical Design & CAD Services in Kenya | Abednego Morara',
+
   description:
-    'Mechanical design, CAD modelling, machine design and fabrication-ready engineering drawings for components, machines and practical engineering projects in Kenya and internationally.',
-  eyebrow: 'SERVICE / 01',
-  heading: 'Mechanical design that\ncan actually be built.',
-  intro:
-    'Mechanical design and CAD services for machines, components and engineering projects where the final design needs to work beyond the screen. I connect concept development, 3D modelling, engineering drawings and design-for-manufacturing thinking to create practical, fabrication-ready solutions.',
-  image: '/images/hydraulic-bending-machine-2.jpeg',
+    'Mechanical design and CAD services in Kenya covering 3D modelling, fabrication-ready drawings, machine components and practical design for manufacturing.',
+
+  eyebrow: 'MECHANICAL DESIGN / 01',
+
+  heading: 'Mechanical Design\n& CAD',
+
+  image: '/images/service-mechanical.jpeg',
+
   alt:
-    'Mechanical design and fabrication of a hydraulic sheet-metal bending machine',
+    'Mechanical design and CAD services by Abednego Morara in Kenya',
+
+  intro:
+    'Mechanical design and CAD work that connects engineering concepts with practical, fabrication-ready solutions.',
+
   sections: [
     [
-      'Concept & mechanical design',
-      'Develop practical engineering concepts around function, loads, materials, manufacturing methods and the real-world constraints of the project.'
+      '3D CAD & Modelling',
+      'Developing mechanical components, assemblies and concepts in 3D CAD with attention to dimensions, interfaces and practical manufacturing requirements.'
     ],
     [
-      'CAD & 3D modelling',
-      'Create clear 3D CAD models and assemblies that communicate the design and help identify problems before material and machine time are committed.'
+      'Fabrication-Ready Drawings',
+      'Preparing clear engineering drawings and dimensions that help move a design from the screen into cutting, forming, machining and assembly.'
     ],
     [
-      'Fabrication-ready drawings',
-      'Prepare dimensions, details and manufacturing information with fabrication, assembly and maintenance requirements in mind.'
+      'Machine & Component Design',
+      'Designing practical mechanical components and machine solutions around the actual problem, available processes and intended use.'
     ],
     [
-      'Design for manufacturing',
-      'Balance performance, cost and practicality with available processes such as CNC cutting, bending, welding, machining and locally available components.'
+      'Design for Manufacturing',
+      'Considering material, fabrication processes, assembly and production constraints early so that designs are not only technically sound but practical to build.'
     ]
   ],
+
   tags: [
-    'Mechanical Engineering',
     'Mechanical Design',
+    'Mechanical Engineering',
     'CAD',
     '3D Modelling',
+    'Engineering Drawings',
     'Machine Design',
-    'Fabrication Drawings'
+    'Design for Manufacturing',
+    'Mechanical Design Kenya'
   ]
 },
   'cnc-fabrication': {
