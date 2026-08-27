@@ -20,7 +20,9 @@ function About() {
     <section className="about-section">
       <div className="about-content">
         <Reveal><p className="eyebrow">THE SHORT VERSION</p><h2>Mechanical engineer by training.<br /><span>Builder by instinct.</span></h2></Reveal>
-        <Reveal delay={100} className="about-text"><p>My work has grown around a simple question: <strong>how do we make this actually work?</strong></p><p>That has taken me through mechanical design, CNC laser cutting, sheet-metal fabrication, welding, machine maintenance and production processes — and into web development when I realised that information itself can become a bottleneck.</p><p>I don't see these as separate worlds. They are different tools for solving the same kind of problem: understand it, build the right thing, test it and improve it.</p></Reveal>
+        <Reveal delay={100} className="about-text"><p>
+  My work has grown around a simple question: <strong>how do we make this actually work?</strong> That question drives how I approach engineering projects, fabrication work and digital systems.
+</p><p>That has taken me through mechanical design, CNC laser cutting, sheet-metal fabrication, welding, machine maintenance and production processes — and into web development when I realised that information itself can become a bottleneck.</p><p>I don't see these as separate worlds. They are different tools for solving the same kind of problem: understand it, build the right thing, test it and improve it.</p></Reveal>
       </div>
       <div className="about-stats">
         {["Mechanical Design", "CNC & Fabrication", "Machines & Reliability", "Digital Systems"].map((x,i)=><Reveal key={x} delay={i*70}><div className="stat edge-box"><span>0{i+1}</span><strong>{x}</strong><small>Practical capability</small></div></Reveal>)}
