@@ -11,13 +11,15 @@ const process = [
 function About() {
   return <main>
     <section className="page-hero">
-      <div><Reveal><p className="eyebrow">ABOUT / 01</p><h1>Curious about<br /><span>how things work.</span></h1><p>I work where engineering theory meets practical execution — in the workshop, on the machine and increasingly inside the software that connects everything.</p></Reveal></div>
+      <div><Reveal><p className="eyebrow">ABOUT / 01</p><h1>Mechanical Engineer<br /><span>& Builder in Kenya.</span></h1><p>
+  I'm Abednego Morara, a mechanical engineer and builder in Kenya working across mechanical design, CNC fabrication, machine reliability, production systems and digital technology.
+</p></Reveal></div>
       <Reveal delay={120} className="page-hero-image"><img src="/images/hydraulic-bending-machine-2.jpeg" alt="Hydraulic sheet-metal bending machine fabrication work" /></Reveal>
     </section>
 
     <section className="about-section">
       <div className="about-content">
-        <Reveal><p className="eyebrow">THE SHORT VERSION</p><h2>Engineer by training.<br /><span>Builder by instinct.</span></h2></Reveal>
+        <Reveal><p className="eyebrow">THE SHORT VERSION</p><h2>Mechanical engineer by training.<br /><span>Builder by instinct.</span></h2></Reveal>
         <Reveal delay={100} className="about-text"><p>My work has grown around a simple question: <strong>how do we make this actually work?</strong></p><p>That has taken me through mechanical design, CNC laser cutting, sheet-metal fabrication, welding, machine maintenance and production processes — and into web development when I realised that information itself can become a bottleneck.</p><p>I don't see these as separate worlds. They are different tools for solving the same kind of problem: understand it, build the right thing, test it and improve it.</p></Reveal>
       </div>
       <div className="about-stats">
