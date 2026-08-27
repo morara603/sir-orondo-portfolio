@@ -1,7 +1,42 @@
 export const SERVICE_PAGES = {
   'mechanical-design': {
-    title: 'Mechanical Design & CAD Services | Abednego Morara', description: 'Mechanical design, CAD modelling and fabrication-ready drawings for machines, components and practical engineering projects in Kenya and internationally.', eyebrow: 'SERVICE / 01', heading: 'Mechanical design that\ncan actually be built.', intro: 'From an early concept to a fabrication-ready drawing set, I focus on designs that make sense in the workshop as well as on the screen.', image: '/images/hydraulic-bending-machine-2.jpeg', alt: 'Mechanical design and fabrication of a hydraulic sheet-metal bending machine', sections: [['Concept & mechanical design','Develop practical concepts around the load, function, materials, manufacturing method and real-world constraints of the project.'],['CAD & 3D modelling','Create clear 3D models and assemblies that help communicate the design before material and machine time are committed.'],['Fabrication-ready drawings','Prepare dimensions, details and manufacturing information with fabrication, assembly and maintenance in mind.'],['Design for manufacturing','Balance performance with available processes such as cutting, bending, welding, machining and locally available components.']], tags: ['Mechanical Engineering','CAD','3D Modelling','Machine Design','Fabrication Drawings']
-  },
+  title: 'Mechanical Design & CAD Services in Kenya | Abednego Morara',
+  description:
+    'Mechanical design, CAD modelling, machine design and fabrication-ready engineering drawings for components, machines and practical engineering projects in Kenya and internationally.',
+  eyebrow: 'SERVICE / 01',
+  heading: 'Mechanical design that\ncan actually be built.',
+  intro:
+    'Mechanical design and CAD services for machines, components and engineering projects where the final design needs to work beyond the screen. I connect concept development, 3D modelling, engineering drawings and design-for-manufacturing thinking to create practical, fabrication-ready solutions.',
+  image: '/images/hydraulic-bending-machine-2.jpeg',
+  alt:
+    'Mechanical design and fabrication of a hydraulic sheet-metal bending machine',
+  sections: [
+    [
+      'Concept & mechanical design',
+      'Develop practical engineering concepts around function, loads, materials, manufacturing methods and the real-world constraints of the project.'
+    ],
+    [
+      'CAD & 3D modelling',
+      'Create clear 3D CAD models and assemblies that communicate the design and help identify problems before material and machine time are committed.'
+    ],
+    [
+      'Fabrication-ready drawings',
+      'Prepare dimensions, details and manufacturing information with fabrication, assembly and maintenance requirements in mind.'
+    ],
+    [
+      'Design for manufacturing',
+      'Balance performance, cost and practicality with available processes such as CNC cutting, bending, welding, machining and locally available components.'
+    ]
+  ],
+  tags: [
+    'Mechanical Engineering',
+    'Mechanical Design',
+    'CAD',
+    '3D Modelling',
+    'Machine Design',
+    'Fabrication Drawings'
+  ]
+},
   'cnc-fabrication': {
   title: 'CNC Fabrication & Sheet Metal Services in Kenya | Abednego Morara',
   description:
