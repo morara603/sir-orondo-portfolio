@@ -245,15 +245,19 @@ function SEO({
       ],
 
       areaServed: [
-        {
-          "@type": "Country",
-          name: "Kenya",
-        },
-        {
-          "@type": "Place",
-          name: "International",
-        },
-      ],
+  {
+    "@type": "Country",
+    name: "Kenya",
+  },
+  {
+    "@type": "Place",
+    name: "International",
+  },
+],
+nationality: {
+  "@type": "Country",
+  name: "Kenya",
+},
     };
 
     /*
