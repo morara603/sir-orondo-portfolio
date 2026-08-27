@@ -230,7 +230,44 @@ export const PROJECT_PAGES = {
     'Digital Production Systems'
   ]
 },
-  'e-water-meter-boxes': { title: 'E-Water Meter Boxes | Abednego Morara', description: 'Sheet-metal meter box components developed around repeatable CNC production and practical assembly.', category: 'SHEET METAL', heading: 'E-Water\nMeter Boxes', image: '/images/project-meter.jpeg', alt: 'Sheet-metal E-Water meter box components', intro: 'A production-oriented sheet-metal project focused on repeatability, clean fabrication and practical assembly.', details: [['Process','CNC production'],['Material','Sheet metal'],['Focus','Repeatability'],['Output','Box components']], body: 'The project demonstrates how design decisions affect repeatable production. Components were developed around cutting, forming and assembly requirements rather than treating fabrication as an afterthought.', tags: ['Sheet Metal','CNC','Fabrication','Production'] },
+  'e-water-meter-boxes': {
+  title: 'E-Water Meter Box Fabrication & CNC Production | Kenya | Abednego Morara',
+
+  description:
+    'E-Water meter box components fabricated from sheet metal using CNC production methods, with a focus on accurate cutting, repeatable fabrication and practical assembly.',
+
+  category: 'SHEET METAL & CNC FABRICATION',
+
+  heading: 'E-Water\nMeter Boxes',
+
+  image: '/images/project-meter.jpeg',
+
+  alt:
+    'E-Water sheet-metal meter box components fabricated using CNC production',
+
+  intro:
+    'A production-oriented sheet-metal fabrication project focused on accurate CNC cutting, repeatable components and practical assembly for meter box applications.',
+
+  details: [
+    ['Process', 'CNC production'],
+    ['Material', 'Sheet metal'],
+    ['Focus', 'Repeatability'],
+    ['Output', 'Meter box components']
+  ],
+
+  body:
+    'The project demonstrates how mechanical design and fabrication decisions affect repeatable production. Components were developed around cutting, forming and assembly requirements so that the finished parts could be produced consistently. The work combines CNC production, sheet-metal fabrication and practical manufacturing considerations.',
+
+  tags: [
+    'E-Water Meter Boxes',
+    'Sheet Metal Fabrication',
+    'CNC Fabrication',
+    'CNC Cutting',
+    'Metal Enclosures',
+    'Production',
+    'Fabrication Kenya'
+  ]
+},
   'consumer-boxes': { title: 'Consumer Electrical Enclosures | Abednego Morara', description: 'CNC-cut and bent electrical enclosure components designed for practical sheet-metal production.', category: 'ELECTRICAL ENCLOSURE', heading: 'Consumer\nBoxes', image: '/images/project-consumer.jpeg', alt: 'CNC-cut and bent electrical enclosure components', intro: 'Enclosure components developed around accurate cutting, bending and practical production requirements.', details: [['Process','CNC cutting'],['Forming','Sheet bending'],['Use','Electrical enclosure'],['Focus','Production-ready parts']], body: 'This work sits at the intersection of design and fabrication: the geometry has to be accurate, but the finished enclosure also needs to assemble cleanly and make sense as a production item.', tags: ['Electrical Enclosures','CNC','Sheet Metal','Fabrication'] },
   'tent-fabrication': { title: 'Tent Structural Fabrication | Abednego Morara', description: 'Structural tent fabrication work translating drawings and dimensions into repeatable physical assemblies.', category: 'STRUCTURAL FABRICATION', heading: 'Tent\nFabrication', image: '/images/project-tent.jpeg', alt: 'Structural fabrication work for tent assemblies', intro: 'Structural fabrication work focused on turning dimensions and drawings into repeatable physical assemblies.', details: [['Discipline','Structural fabrication'],['Focus','Repeatable assemblies'],['Workflow','Drawing to build'],['Outcome','Physical structure']], body: 'The work demonstrates practical fabrication discipline: interpreting requirements, preparing components and producing assemblies that can be repeated consistently.', tags: ['Structural Fabrication','Welding','Assembly','Production'] },
   'curved-axis-beam': { title: 'Curved Axis Beam Mechanical Design | Abednego Morara', description: 'A specialised mechanical beam project combining design thinking, geometry and fabrication realities.', category: 'MECHANICAL DESIGN', heading: 'Curved Axis\nBeam', image: '/images/project-beam.jpeg', alt: 'Curved axis mechanical beam design and fabrication project', intro: 'A specialised mechanical component where geometry, structural thinking and fabrication constraints had to work together.', details: [['Discipline','Mechanical design'],['Challenge','Curved geometry'],['Focus','Fabricability'],['Outcome','Physical component']], body: 'The project reflects a practical engineering approach: develop the geometry, understand how it will be made and make design decisions that survive the transition from CAD to workshop.', tags: ['Mechanical Design','CAD','Fabrication','Engineering'] }
