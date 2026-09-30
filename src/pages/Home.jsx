@@ -111,7 +111,7 @@ function Home() {
           <Reveal delay={100}><NavLink to="/projects" className="text-link">View the full archive <FaArrowRight /></NavLink></Reveal>
         </div>
         <Reveal className="featured-work edge-box">
-          <div className="featured-work-image"><img src="/images/hydraulic-bending-machine-3.jpeg" alt="Hydraulic sheet-metal bending machine designed and fabricated by Abednego Morara" /><span className="image-badge">FEATURED / 01</span></div>
+          <div className="featured-work-image"><img src="/images/resource-06.jpeg" alt="Hydraulic sheet-metal bending machine designed and fabricated by Abednego Morara" /><span className="image-badge">FEATURED / 01</span></div>
           <div className="featured-work-content"><p className="eyebrow">MECHANICAL FABRICATION</p><h3>Hydraulic Sheet-Metal<br />Bending Machine</h3><p>A practical machine built by combining a locally fabricated structure with sourced hydraulic and tooling components.</p><div className="spec-strip"><div><strong>1.2m</strong><span>Working length</span></div><div><strong>3mm</strong><span>Sheet capacity</span></div><div><strong>2×</strong><span>Hydraulic jacks</span></div></div><NavLink
   to="/projects/hydraulic-sheet-metal-bending-machine"
   className="outline-link"
@@ -128,7 +128,7 @@ function Home() {
           <Reveal delay={100}><p className="intro-copy">A look at the kind of engineering, fabrication, CNC, automation and digital work that sits behind the finished result.</p></Reveal>
         </div>
         <div className="resource-grid">
-          {[["resource-01.jpeg","Fabrication","Enclosure & sheet-metal work"],["resource-10.jpeg","CNC","Machining & production"],["resource-08.jpeg","Automation","Robotics & process work"],["resource-07.jpeg","Engineering","Machine design & reliability"],["resource-11.jpeg","Digital","Systems & security"],["resource-09.jpeg","Production","Press-brake & forming"]].map(([image,tag,title],i)=><Reveal key={image} delay={i*60}><article className="resource-card"><img
+          {[["resource-04.jpeg","Fabrication","Enclosure & sheet-metal work"],["resource-13.jpeg","CNC","Machining & production"],["resource-11.jpeg","Automation","Robotics & process work"],["resource-02.jpeg","Engineering","Machine design & reliability"],["resource-10.jpeg","Digital","Systems & security"],["resource-06.jpeg","Production","Press-brake & forming"]].map(([image,tag,title],i)=><Reveal key={image} delay={i*60}><article className="resource-card"><img
   src={`/images/${image}`}
   alt={`${title} by Abednego Morara`}
   loading="lazy"
